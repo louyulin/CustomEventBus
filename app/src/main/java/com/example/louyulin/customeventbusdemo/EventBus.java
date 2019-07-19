@@ -37,7 +37,7 @@ public class EventBus {
             }
         }
 
-        return null;
+        return instance;
     }
 
 
@@ -151,4 +151,8 @@ public class EventBus {
             e.printStackTrace();
         }
     }
+
+
+
+
 }
